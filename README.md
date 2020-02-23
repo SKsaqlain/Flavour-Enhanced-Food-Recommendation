@@ -1,1 +1,1 @@
-# flavour-Enhanced-Food-Recommendation
+# Flavour-Enhanced-Food-Recommendation
