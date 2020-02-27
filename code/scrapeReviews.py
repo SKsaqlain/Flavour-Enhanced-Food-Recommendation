@@ -15,12 +15,13 @@ def getFoodReviews(food):
     #print(foodContainer)
     print(len(foodContainer))
     reviews=[]
+    id=1
     for i in range(0,len(foodContainer),2):
         #print(foodContainer)
         foodCode=foodContainer[i]["href"]
         if(not foodCode.startswith("/recipe/")):
             continue
-        print(foodCode)
+        #print(foodCode)
         #print(foodContainer[i]["data-url"])
         url="https://www.yummly.com"+foodCode
         response=br.open(url)
@@ -31,10 +32,12 @@ def getFoodReviews(food):
         response=br.open(reviewUrl)
         soup=BeautifulSoup(response.read(),'html.parser')
         allReviews=soup.find_all("div",class_="review media")
-
+        if(len(allReviews)==0):
+        	continue
 
         for eachReview in allReviews:
             body=dict()
+            body["id"]=id
             body["food_item"]=food
             body["name"]=eachReview.find(class_="review-name").find("a").get_text()
         #     reviewName=reviews[0].find_all("div",class_="review-name")
@@ -48,6 +51,7 @@ def getFoodReviews(food):
             body["rating"]=cnt
             body["review"]=eachReview.find(class_="review-text font-normal p2-text").get_text()
             reviews.append(body)
+        id+=1
 
         #print(reviews)
     return reviews
