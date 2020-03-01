@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "food_item": "veg hakka noodles",
+        "name": "Dawn Sahar",
+        "rating": 5,
+        "review": "Loved it but I\u2019d add garlic"
+    },
+    {
+        "id": 2,
+        "food_item": "veg hakka noodles",
+        "name": "Dawn Sahar",
+        "rating": 5,
+        "review": "Loved it but I\u2019d add garlic"
+    },
+    {
+        "id": 3,
+        "food_item": "veg hakka noodles",
+        "name": "Rene' J.",
+        "rating": 5,
+        "review": "I mixed the peanut sauce in with the noodles. I used fettuccine (1 lb) and made enough sauce for 8 servings. Delicious."
+    },
+    {
+        "id": 4,
+        "food_item": "veg hakka noodles",
+        "name": "Rene' J.",
+        "rating": 5,
+        "review": "I mixed the peanut sauce in with the noodles. I used fettuccine (1 lb) and made enough sauce for 8 servings. Delicious."
+    },
+    {
+        "id": 5,
+        "food_item": "veg hakka noodles",
+        "name": "Marc",
+        "rating": 4,
+        "review": "Loved it but uswd Thai Chiles and chile oil which turned the heat up a little too much for most of my family (i didnt mind). Will definitely make it again."
+    },
+    {
+        "id": 6,
+        "food_item": "veg hakka noodles",
+        "name": "Marc",
+        "rating": 4,
+        "review": "Loved it but uswd Thai Chiles and chile oil which turned the heat up a little too much for most of my family (i didnt mind). Will definitely make it again."
+    },
+    {
+        "id": 7,
+        "food_item": "veg hakka noodles",
+        "name": "Brian",
+        "rating": 5,
+        "review": "Very good. One of the quicker/better meals I\u2019ve made from the Yummly app.\nI used 9.5 oz of Hakubaku ramen noodles, doubled the sauce and did not measure how many veggies I used. Will make again and again."
+    },
+    {
+        "id": 7,
+        "food_item": "veg hakka noodles",
+        "name": "Coco Youssef",
+        "rating": 5,
+        "review": "i love this recipe. easy and a lil diff than typicalnfried noodles"
+    },
+    {
+        "id": 8,
+        "food_item": "veg hakka noodles",
+        "name": "Brian",
+        "rating": 5,
+        "review": "Very good. One of the quicker/better meals I\u2019ve made from the Yummly app.\nI used 9.5 oz of Hakubaku ramen noodles, doubled the sauce and did not measure how many veggies I used. Will make again and again."
+    },
+    {
+        "id": 8,
+        "food_item": "veg hakka noodles",
+        "name": "Coco Youssef",
+        "rating": 5,
+        "review": "i love this recipe. easy and a lil diff than typicalnfried noodles"
+    },
+    {
+        "id": 9,
+        "food_item": "veg hakka noodles",
+        "name": "Mai Ann",
+        "rating": 4,
+        "review": "to make it a little spicy i used some hot oil and crushed pepper flakes, just more flavorful"
+    },
+    {
+        "id": 9,
+        "food_item": "veg hakka noodles",
+        "name": "Jamie B.",
+        "rating": 3,
+        "review": "It was ok, but I didn\u2019t love the flavor."
+    },
+    {
+        "id": 10,
+        "food_item": "veg hakka noodles",
+        "name": "Mai Ann",
+        "rating": 4,
+        "review": "to make it a little spicy i used some hot oil and crushed pepper flakes, just more flavorful"
+    },
+    {
+        "id": 10,
+        "food_item": "veg hakka noodles",
+        "name": "Jamie B.",
+        "rating": 3,
+        "review": "It was ok, but I didn\u2019t love the flavor."
+    }
+]
