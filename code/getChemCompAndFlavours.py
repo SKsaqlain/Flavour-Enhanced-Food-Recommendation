@@ -37,7 +37,10 @@ def getChemCompAndFlavours(ingredient):
             entity_id=ele["entity_id"]
             break
     if(entity_id==None):
-        entity_id=jsonifiedData[0]["entity_id"]
+        try:
+            entity_id=jsonifiedData[0]["entity_id"]
+        except:
+            return list()
     print(entity_id)
     queryString="/flavordb/entity_details?id="+str(entity_id)
     print(queryString)
@@ -63,4 +66,4 @@ def getChemCompAndFlavours(ingredient):
     return molecules
 
 if( __name__=='__main__'):
-    print(getChemCompAndFlavours("white pepper"))
+    print(getChemCompAndFlavours("green capsicum bell pepper"))
