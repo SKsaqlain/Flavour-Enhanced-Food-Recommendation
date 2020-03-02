@@ -31,12 +31,13 @@ def getChemCompAndFlavours(ingredient):
     #selecting a specific ingredient from the list of all possible similar ingredients
     entity_id=None
     jsonifiedData=eval(json.loads(rawJsonData))
+    #print(jsonifiedData)
     for ele in jsonifiedData:
         if(ele["entity_alias"].lower()==ingredient.lower()):
             entity_id=ele["entity_id"]
             break
     if(entity_id==None):
-        entity_id=rawJsonData[0]["entity_id"]
+        entity_id=jsonifiedData[0]["entity_id"]
     print(entity_id)
     queryString="/flavordb/entity_details?id="+str(entity_id)
     print(queryString)
@@ -62,4 +63,4 @@ def getChemCompAndFlavours(ingredient):
     return molecules
 
 if( __name__=='__main__'):
-    print(getChemCompAndFlavours("Orange"))
+    print(getChemCompAndFlavours("white pepper"))
